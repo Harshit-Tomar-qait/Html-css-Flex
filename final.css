@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    min-width: 320px;
+}
+nav
+{
+    height: 100vh;
+    background-color: #0d1217;
+    color: rgb(102,102,102);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+
+}
+i{
+  animation:mymove 5s infinite;
+}
+li
+{   
+    text-decoration: none;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  
+}
+
+i:hover
+{
+    cursor: pointer;
+    color:rgb(25, 181, 254);
+}
+main
+{
+
+    height:auto;
+    display: flex;
+    align-items: stretch;
+}
+.space
+{
+    flex: 0 0 auto;
+    width: 3.333rem;
+    background-color:#0d1217; 
+}
+.main_content
+{
+    width: 100%;
+    background-image: url("http://gdurl.com/tAHg");
+    background-color: #5b5b5b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner_detail
+{
+    height:70vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    color: white;
+    padding: 2rem;
+    animation: blink 3s linear infinite;
+	}
+  @keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: .5; color:red;}
+  100%{opacity: 1;}
+}
+}
+
+.banner_detail>div>h1
+{
+    font-size:3.5rem;
+    font-weight:700;
+}
+
+.banner_detail>div>h3
+{
+    font-size:2rem;
+    font-weight:500;
+}
+.banner_detail>div
+{   <div class="banner_detail">
+                    
+                        <div><h1>Hey, I am Harshit</h1></div>
+                        <div><h3>Welcome to Animals Gallery </h3></div>
+                        <div><button class="but">Continue</button></div>
+                </div>
+                <div class="content_section">
+             
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner_detail>div>button
+{
+    font-size:1.5rem;
+    font-weight:300;
+    color:white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.content_section
+{
+    height: auto;
+    background-color:white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color:black;
+    border-bottom:dashed;
+}
+.content_section>div
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    color:rgb(102,102,102);
+    font-size:1.5rem;
+    font-weight:300;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    margin: 0 2rem;
+    border: 0.5px solid black;
+    
+}
+img
+{
+    flex:1 1 auto;
+    width:18.6rem;
+    height:18.6rem;
+    background-color:rgb(0,0,255,0.3);
+    border: 0.5px solid white;
+}
+img:hover
+{
+  transform:scale(1.1);
+}
+
+.content_section>div>button
+{
+    
+    font-size:1.5rem;
+    font-weight:300;
+    color:white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: #19B5FE;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.but:hover
+{
+  color:red;
+  transform:scale(1.1);
+}
+
+.foot
+{
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {left: 0%;}
+  to {left: 100%;}
+
+
+
+

@@ -1,0 +1,74 @@
+body
+{
+  padding:0;
+  margin:0;
+  display:flex;
+  box-sizing:border-box;
+}
+.Page
+{
+  display:flex;
+  height:auto;
+}
+.Page_nav
+{
+  padding: 1rem ;
+  flex-direction:column;
+  justify-content:flex-start;
+  background-color:black;
+  color:white;
+  align-items:stretch;
+  top:0;
+  position: fixed;
+  height:100vh;
+  
+}
+.nav
+{
+  padding: 1rem ;
+  margin-bottom: 2rem;
+}
+.Page_main
+{
+  width:100% ;
+  display:flex;
+  flex-wrap:wrap;
+}
+.Heading
+{
+  padding: 1rem ; 
+  background-image:url("backgr1.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  display:flex;
+  flex-wrap:wrap;
+  color:white;
+}
+.head
+{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+.content
+{
+  padding: 1rem; 
+  display:flex;
+  background-color:red;
+  flex-direction:column; 
+  flex-wrap:wrap;
+  width:auto;
+}
+.content_1
+{
+  display:flex;
+  justify-contents:center;
+}
+.content_photos
+{
+  padding:1rem;
+  display:flex;
+  flex-direction:row;
+}
